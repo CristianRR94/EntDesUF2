@@ -98,9 +98,9 @@ import java.util.Scanner;
 			 */
 			public void Calculonotas() throws NumberFormatException {
 				try {
-				acu1= uf1*0.35;
-				acu2 = uf2 * 0.35;
-				acu3 = uf3 * 0.30;
+				acu1= uf1*0.25;
+				acu2 = uf2 * 0.25;
+				acu3 = uf3 * 0.50;
 				
 				def = acu1 + acu2+ acu3;
 				}
