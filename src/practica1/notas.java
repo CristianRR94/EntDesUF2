@@ -34,7 +34,7 @@ import java.util.Scanner;
 			/**
 			 * metodo que nos permite ingresar las notas
 			 */
-			public void IngresaNotas() {
+			public void IngresarNotas() {
 				//cuando ejeuctamos este metodo lo primnero que queremos es que nos pida notas
 				System.out.println("ingrese las notas del estudiante");
 				
@@ -59,10 +59,10 @@ import java.util.Scanner;
 			/**
 			 * metodo usado para comprobar la correcta introducción de notas
 			 * si la nota es mayor que 10, nos indicara el error
-			 * @see #IngresaNotas()
+			 * @see #IngresarNotas()
 			 * 
 			 */
-			public void comprobarcion(){
+			public void comprobacion(){
 				
 				if (uf1>10) {
 					System.out.println(" nota1 mal introducida");
